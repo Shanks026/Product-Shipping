@@ -1,4 +1,4 @@
-package com.self;
+
 import java.util.*;
 
 public class DigitalProduct extends Product{
