@@ -1,4 +1,4 @@
-package com.self;
+
 
 public class PhysicalProduct extends Product {
 	public int weight;
