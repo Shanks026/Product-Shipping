@@ -1,4 +1,3 @@
-package com.self;
 
 public class ServiceProduct extends Product {
 	public int duration;
