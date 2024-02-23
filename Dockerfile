@@ -2,10 +2,10 @@
 FROM openjdk:17-jdk-slim
 
 # Set the working directory inside the container
-WORKDIR /usr/src/app
+WORKDIR /var/www/java
 
 # Copy Java source files into the container
-COPY Product.java PhysicalProduct.java DigitalProduct.java ServiceProduct.java ./
+COPY . /var/www/java
 
 # Compile Java source files
 RUN javac Product.java PhysicalProduct.java DigitalProduct.java ServiceProduct.java
