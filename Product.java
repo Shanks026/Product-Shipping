@@ -1,4 +1,4 @@
-package com.self;
+
 
 public abstract class Product {
 	public int id;
